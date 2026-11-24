@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="927" viewBox="0 0 1750 927" role="img" aria-labelledby="title description">
+  <title id="title">C4. Компоненты веб-приложения фитнес-клуба</title>
+  <desc id="description">Веб-интерфейс, доступ, отчёты, посещения, запись и расписание, клиенты и абонементы, оплаты и интеграции. Система использует общую базу данных и три внешних сервиса.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="#315373"/></marker>
+    <marker id="message" markerWidth="13" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L11 6 L1 11 Z" fill="white" stroke="#52677b" stroke-width="1.25"/></marker>
+    <marker id="origin" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="3.3" fill="white" stroke="#52677b" stroke-width="1.35"/></marker>
+  </defs>
+  <rect width="1750" height="927" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="32" y="38" font-size="27" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="32" dy="0">C4 · Диаграмма компонентов</tspan></text>
+    <rect x="35" y="182" width="1355" height="691" rx="13" fill="#f4f8fc" stroke="#6283a6" stroke-width="1.6" />
+    <text x="56" y="211" font-size="22" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="56" dy="0">ИС управления фитнес-клубом</tspan></text>
+    <rect x="55" y="229" width="1315" height="527" rx="11" fill="#ffffff" stroke="#7691ac" stroke-width="1.55" stroke-dasharray="7 5"/>
+    <text x="76" y="254" font-size="18" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="76" dy="0">Веб-приложение клуба [контейнер]</tspan></text>
+    <polyline points="415,128 415,284" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="315" y="143" width="200" height="24" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="415" y="160" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="415" dy="0">Запись и покупки</tspan></text>
+    <rect x="300" y="65" width="230" height="63" rx="9" fill="#254765" stroke="#254765" stroke-width="1.5" />
+    <text x="415" y="91" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle" ><tspan x="415" dy="0">Клиент</tspan></text>
+    <text x="415" y="114" font-size="15" fill="#edf5fc" font-weight="400" text-anchor="middle" ><tspan x="415" dy="0">Записывается на занятия</tspan></text>
+    <polyline points="685,128 685,284" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="585" y="143" width="200" height="24" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="685" y="160" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="685" dy="0">Рабочие операции</tspan></text>
+    <rect x="550" y="65" width="270" height="63" rx="9" fill="#254765" stroke="#254765" stroke-width="1.5" />
+    <text x="685" y="91" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle" ><tspan x="685" dy="0">Администратор</tspan></text>
+    <text x="685" y="114" font-size="15" fill="#edf5fc" font-weight="400" text-anchor="middle" ><tspan x="685" dy="0">Ведёт учёт и регистрирует визиты</tspan></text>
+    <polyline points="940,128 940,284" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="840" y="143" width="200" height="24" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="940" y="160" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="940" dy="0">Отчёты и настройки</tspan></text>
+    <rect x="825" y="65" width="230" height="63" rx="9" fill="#254765" stroke="#254765" stroke-width="1.5" />
+    <text x="940" y="91" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle" ><tspan x="940" dy="0">Управляющий</tspan></text>
+    <text x="940" y="114" font-size="15" fill="#edf5fc" font-weight="400" text-anchor="middle" ><tspan x="940" dy="0">Настраивает правила</tspan></text>
+    <polyline points="188,365 188,462" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="93" y="377" width="190" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="188" y="393" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="188" dy="0">Данные отчёта</tspan></text>
+    <polyline points="444,365 444,462" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="349" y="377" width="190" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="444" y="393" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="444" dy="0">Фиксация визита</tspan></text>
+    <polyline points="700,365 700,462" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="605" y="377" width="190" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="700" y="393" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="700" dy="0">Расписание и запись</tspan></text>
+    <polyline points="935,365 935,410 956,410 956,462" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="861" y="377" width="190" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="956" y="393" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="956" dy="0">Карточки и тарифы</tspan></text>
+    <polyline points="935,365 935,410 1212,410 1212,462" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="1117" y="424" width="190" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1212" y="440" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1212" dy="0">Покупка и оплата</tspan></text>
+    <polyline points="978,325 1127,325" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="1052" y="315" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1052" dy="0">Проверка прав</tspan></text>
+    <polyline points="810,509 846,509" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1102,546 1066,546" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="700,557 700,598 1212,598 1212,557" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="847" y="584" width="258" height="22" rx="0" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="976" y="601" font-size="14" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="976" dy="0">Передаёт результат для уведомления</tspan></text>
+    <polyline points="1313,484 1397,484 1397,421 1490,421" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1313,510 1490,510" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1313,538 1397,538 1397,599 1490,599" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="1444" y="409" font-size="12.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1444" dy="0">Статус оплаты</tspan></text>
+    <text x="1444" y="499" font-size="12.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1444" dy="0">Данные оплаты</tspan></text>
+    <text x="1444" y="588" font-size="12.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1444" dy="0">Уведомления</tspan></text>
+    <polyline points="188,557 188,674" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="444,557 444,674" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="670,557 670,674" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="956,557 956,674" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1253,557 1253,674" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="700,724 700,786" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="714" y="778" font-size="14" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="714" dy="0">Чтение и сохранение</tspan></text>
+    <text x="201" y="652" font-size="14" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="201" dy="0">Доступ к данным</tspan></text>
+    <rect x="78" y="284" width="900" height="81" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="528" y="310" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="528" dy="0">Веб-интерфейс</tspan></text>
+    <text x="528" y="333" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="528" dy="0">Личный кабинет клиента и рабочие разделы сотрудников</tspan></text>
+    <rect x="1127" y="284" width="185" height="81" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="1219.5" y="310" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1219.5" dy="0">Доступ</tspan></text>
+    <text x="1219.5" y="333" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1219.5" dy="0">Вход и роли</tspan></text>
+    <rect x="78" y="462" width="220" height="95" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="188" y="488" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="188" dy="0">Отчёты</tspan></text>
+    <text x="188" y="511" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="188" dy="0">Посещения, загрузка,</tspan><tspan x="188" dy="19">оплаты и выгрузка</tspan></text>
+    <rect x="334" y="462" width="220" height="95" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="444" y="488" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="444" dy="0">Учёт посещений</tspan></text>
+    <text x="444" y="511" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="444" dy="0">Визит и неявка.</tspan><tspan x="444" dy="19">Однократное списание</tspan></text>
+    <rect x="590" y="462" width="220" height="95" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="700" y="488" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="700" dy="0">Запись и расписание</tspan></text>
+    <text x="700" y="511" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="700" dy="0">Занятия, лимиты мест,</tspan><tspan x="700" dy="19">запись и отмена</tspan></text>
+    <rect x="846" y="462" width="220" height="95" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="956" y="488" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="956" dy="0">Клиенты и абонементы</tspan></text>
+    <text x="956" y="511" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="956" dy="0">Карточки, тарифы, срок,</tspan><tspan x="956" dy="19">заморозка и остаток</tspan></text>
+    <rect x="1102" y="462" width="220" height="95" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="1212" y="488" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1212" dy="0">Оплаты и интеграции</tspan></text>
+    <text x="1212" y="511" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1212" dy="0">Оплаты, возвраты</tspan><tspan x="1212" dy="19">и отправка уведомлений</tspan></text>
+    <rect x="78" y="674" width="1244" height="50" rx="9" fill="#e5f0fb" stroke="#7695b2" stroke-width="1.5" />
+    <text x="700" y="700" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="700" dy="0"></tspan></text>
+    <text x="700" y="723" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ></text>
+    <text x="700" y="705" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="700" dy="0">Работа с данными и транзакциями</tspan></text>
+    <rect x="423" y="786" width="554" height="70" rx="9" fill="#e1edf7" stroke="#7695b2" stroke-width="1.5" />
+    <text x="700" y="812" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="700" dy="0">База данных [контейнер]</tspan></text>
+    <text x="700" y="835" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="700" dy="0">Клиенты, абонементы, занятия, записи, посещения и платежи</tspan></text>
+    <rect x="1490" y="389" width="237" height="64" rx="9" fill="#edf2f6" stroke="#7695b2" stroke-width="1.5" />
+    <text x="1608.5" y="415" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1608.5" dy="0">Платёжный сервис</tspan></text>
+    <text x="1608.5" y="438" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1608.5" dy="0">Принимает онлайн-оплату</tspan></text>
+    <rect x="1490" y="478" width="237" height="64" rx="9" fill="#edf2f6" stroke="#7695b2" stroke-width="1.5" />
+    <text x="1608.5" y="504" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1608.5" dy="0">Касса клуба</tspan></text>
+    <text x="1608.5" y="527" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1608.5" dy="0">Учитывает расчёты</tspan></text>
+    <rect x="1490" y="567" width="237" height="64" rx="9" fill="#edf2f6" stroke="#7695b2" stroke-width="1.5" />
+    <text x="1608.5" y="593" font-size="18" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1608.5" dy="0">Сервис уведомлений</tspan></text>
+    <text x="1608.5" y="616" font-size="15" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1608.5" dy="0">Доставляет сообщения</tspan></text>
+    <text x="1490" y="367" font-size="17" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="1490" dy="0">Внешние системы</tspan></text>
+    <text x="56" y="905" font-size="16" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="56" dy="0">Связи между соседними компонентами: запись проверяет право по абонементу, оплата передаёт подтверждение для его активации.</tspan></text>
+  </g>
+</svg>

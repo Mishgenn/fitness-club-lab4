@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="746" viewBox="0 0 1780 746" role="img" aria-labelledby="title description">
+  <title id="title">BPMN. Запись на групповую тренировку</title>
+  <desc id="description">Модель целевого процесса. Система проверяет абонемент, предлагает покупку при необходимости и возвращает клиенту результат записи.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="#315373"/></marker>
+    <marker id="message" markerWidth="13" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L11 6 L1 11 Z" fill="white" stroke="#52677b" stroke-width="1.25"/></marker>
+    <marker id="origin" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="3.3" fill="white" stroke="#52677b" stroke-width="1.35"/></marker>
+  </defs>
+  <rect width="1780" height="746" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="35" y="40" font-size="28" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="35" dy="0">BPMN · Запись на групповую тренировку</tspan></text>
+    <rect x="35" y="67" width="1720" height="53" rx="0" fill="#edf3f8" stroke="#57738d" stroke-width="1.5" />
+    <text x="60" y="101" font-size="18" fill="#172b43" font-weight="700" text-anchor="start" ><tspan x="60" dy="0">Клиент</tspan></text>
+    <rect x="35" y="153" width="1720" height="539" rx="0" fill="#ffffff" stroke="#57738d" stroke-width="1.5" />
+    <rect x="35" y="153" width="39" height="539" rx="0" fill="#edf3f8" stroke="#57738d" stroke-width="1.5" />
+    <text x="54" y="426" font-size="16" fill="#172b43" font-weight="700" text-anchor="middle" transform="rotate(-90 54 426)"><tspan x="54" dy="0">ФИТНЕС-КЛУБ · ИНФОРМАЦИОННАЯ СИСТЕМА</tspan></text>
+    <polyline points="128,447 163,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="311,447 351.5,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="396.5,447 1037.5,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="374,424.5 374,297" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="923,264 962.5,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="985,286.5 985,354 1060,354 1060,424.5" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1007.5,264 1082.5,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1289,447 1319.5,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1364.5,447 1390.5,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1342,469.5 1342,567 1390.5,567" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1555.5,447 1671,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1555.5,567 1671,567" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="453,264 475.5,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="630.5,264 669.5,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="714.5,264 747,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="692,241.5 692,187 1105,187 1105,241.5" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1127.5,264 1156.5,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1349.5,264 1414,264" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="1082.5,447 1103,447" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <polyline points="110,120 110,429" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <polyline points="1490,414 1490,120" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <polyline points="1510,534 1510,516 1749,516 1749,120" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <polyline points="353,231 353,120" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <polyline points="553,120 553,231" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <polyline points="1253,231 1253,120" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <circle cx="110" cy="447" r="18" fill="white" stroke="#315373" stroke-width="1.8"/>
+    <path d="M102.5 442 h15 v10 h-15 z" fill="white" stroke="#315373" stroke-width="1.2"/><path d="M102.5 442 l7.5 5.1 l7.5 -5.1" fill="none" stroke="#315373" stroke-width="1.2"/>
+    <text x="110" y="487" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="110" dy="0">Запрос</tspan><tspan x="110" dy="19">на запись</tspan></text>
+    <rect x="163" y="414" width="148" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <text x="177" y="436" font-size="17" fill="#315373" font-weight="400" text-anchor="middle" ><tspan x="177" dy="0">⚙</tspan></text>
+    <text x="237" y="443" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="237" dy="0">Проверить</tspan><tspan x="237" dy="19">абонемент</tspan></text>
+    <path d="M374 424.5 L396.5 447 L374 469.5 L351.5 447 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M368 441 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <text x="374" y="493" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="374" dy="0">Абонемент</tspan><tspan x="374" dy="19">подходит?</tspan></text>
+    <path d="M1060 424.5 L1082.5 447 L1060 469.5 L1037.5 447 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M1054 441 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <rect x="1103" y="398" width="186" height="98" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <text x="1117" y="420" font-size="17" fill="#315373" font-weight="400" text-anchor="middle" ><tspan x="1117" dy="0">⚙</tspan></text>
+    <text x="1196" y="434" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1196" dy="0">Проверить абонемент,</tspan><tspan x="1196" dy="19">дубликат и место,</tspan><tspan x="1196" dy="19">сохранить запись</tspan></text>
+    <path d="M1342 424.5 L1364.5 447 L1342 469.5 L1319.5 447 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M1336 441 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <text x="1342" y="396" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="1342" dy="0">Запись</tspan><tspan x="1342" dy="19">создана?</tspan></text>
+    <rect x="1390.5" y="414" width="165" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <path d="M1398.5 422 h15 v10 h-15 z" fill="#315373" stroke="#315373" stroke-width="1.2"/><path d="M1398.5 422 l7.5 5.1 l7.5 -5.1" fill="none" stroke="white" stroke-width="1.2"/>
+    <text x="1473" y="448" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1473" dy="0">Отправить</tspan><tspan x="1473" dy="19">подтверждение</tspan></text>
+    <circle cx="1689" cy="447" r="18" fill="white" stroke="#315373" stroke-width="3.8"/>
+    <text x="1689" y="488" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="1689" dy="0">Клиент записан</tspan></text>
+    <rect x="295" y="231" width="158" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <path d="M303 239 h15 v10 h-15 z" fill="#315373" stroke="#315373" stroke-width="1.2"/><path d="M303 239 l7.5 5.1 l7.5 -5.1" fill="none" stroke="white" stroke-width="1.2"/>
+    <text x="374" y="265" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="374" dy="0">Предложить купить</tspan><tspan x="374" dy="19">абонемент</tspan></text>
+    <rect x="475.5" y="231" width="155" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <path d="M483.5 239 h15 v10 h-15 z" fill="white" stroke="#315373" stroke-width="1.2"/><path d="M483.5 239 l7.5 5.1 l7.5 -5.1" fill="none" stroke="#315373" stroke-width="1.2"/>
+    <text x="553" y="265" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="553" dy="0">Получить решение</tspan><tspan x="553" dy="19">клиента</tspan></text>
+    <path d="M692 241.5 L714.5 264 L692 286.5 L669.5 264 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M686 258 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <text x="692" y="310" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="692" dy="0">Клиент согласен</tspan><tspan x="692" dy="19">на покупку?</tspan></text>
+    <rect x="747" y="231" width="176" height="66" rx="9" fill="#e5f1fc" stroke="#315373" stroke-width="3.5" />
+    <rect x="829.5" y="284" width="11" height="10" rx="1" fill="white" stroke="#315373" stroke-width="1.1" />
+    <path d="M831.5 289 h7 m-3.5 -3.2 v6.4" fill="none" stroke="#315373" stroke-width="1.1"/>
+    <text x="835" y="260" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="835" dy="0">Покупка</tspan><tspan x="835" dy="19">абонемента</tspan></text>
+    <path d="M985 241.5 L1007.5 264 L985 286.5 L962.5 264 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M979 258 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <text x="985" y="215" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="985" dy="0">Покупка</tspan><tspan x="985" dy="19">успешна?</tspan></text>
+    <path d="M1105 241.5 L1127.5 264 L1105 286.5 L1082.5 264 Z" fill="#ffffff" stroke="#315373" stroke-width="1.8"/>
+    <path d="M1099 258 l12 12 m0 -12 l-12 12" fill="none" stroke="#315373" stroke-width="2.5"/>
+    <rect x="1156.5" y="231" width="193" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <path d="M1164.5 239 h15 v10 h-15 z" fill="#315373" stroke="#315373" stroke-width="1.2"/><path d="M1164.5 239 l7.5 5.1 l7.5 -5.1" fill="none" stroke="white" stroke-width="1.2"/>
+    <text x="1253" y="265" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1253" dy="0">Сообщить, что запись</tspan><tspan x="1253" dy="19">не создана</tspan></text>
+    <circle cx="1432" cy="264" r="18" fill="white" stroke="#315373" stroke-width="3.8"/>
+    <text x="1432" y="304" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="1432" dy="0">Без записи</tspan></text>
+    <rect x="1390.5" y="534" width="165" height="66" rx="9" fill="#f0f6fb" stroke="#315373" stroke-width="1.7" />
+    <path d="M1398.5 542 h15 v10 h-15 z" fill="#315373" stroke="#315373" stroke-width="1.2"/><path d="M1398.5 542 l7.5 5.1 l7.5 -5.1" fill="none" stroke="white" stroke-width="1.2"/>
+    <text x="1473" y="568" font-size="15.5" fill="#172b43" font-weight="700" text-anchor="middle" ><tspan x="1473" dy="0">Сообщить причину</tspan><tspan x="1473" dy="19">отказа</tspan></text>
+    <circle cx="1689" cy="567" r="18" fill="white" stroke="#315373" stroke-width="3.8"/>
+    <text x="1689" y="608" font-size="15" fill="#172b43" font-weight="400" text-anchor="middle" ><tspan x="1689" dy="0">Без новой записи</tspan></text>
+    <rect x="425" y="424" width="30" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="440" y="438" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="440" dy="0">Да</tspan></text>
+    <rect x="389" y="356" width="38" height="19" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="408" y="370" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="408" dy="0">Нет</tspan></text>
+    <rect x="1009" y="332" width="30" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1024" y="346" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1024" dy="0">Да</tspan></text>
+    <rect x="1023" y="242" width="48" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1047" y="256" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1047" dy="0">Нет</tspan></text>
+    <rect x="1363" y="422" width="26" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1376" y="436" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1376" dy="0">Да</tspan></text>
+    <rect x="1347" y="533" width="42" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1368" y="547" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1368" dy="0">Нет</tspan></text>
+    <rect x="716" y="242" width="30" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="731" y="256" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="731" dy="0">Да</tspan></text>
+    <rect x="800" y="165" width="65" height="18" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="832.5" y="179" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="832.5" dy="0">Нет</tspan></text>
+    <rect x="118" y="127" width="224" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="230" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="230" dy="0">Запрос из личного кабинета</tspan></text>
+    <rect x="1497" y="127" width="133" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1563.5" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1563.5" dy="0">Подтверждение</tspan></text>
+    <rect x="1640" y="127" width="82" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1681" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1681" dy="0">Отказ</tspan></text>
+    <rect x="360" y="127" width="178" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="449" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="449" dy="0">Предложение покупки</tspan></text>
+    <rect x="562" y="127" width="157" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="640.5" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="640.5" dy="0">Решение клиента</tspan></text>
+    <rect x="1261" y="127" width="145" height="20" rx="2" fill="#ffffff" stroke="none" stroke-width="1.5" />
+    <text x="1333.5" y="141" font-size="14.5" fill="#486076" font-weight="400" text-anchor="middle" ><tspan x="1333.5" dy="0">Запись не создана</tspan></text>
+    <polyline points="1196,496 1196,508 1103,508 1103,539 1113,539" stroke="#597187" stroke-dasharray="3 3" fill="none"/>
+    <path d="M1123 520 h-10 v43 h10" stroke="#597187" fill="none" stroke-width="1.3"/>
+    <text x="1126" y="536" font-size="14.5" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="1126" dy="0">Проверки и запись</tspan><tspan x="1126" dy="17">в одной операции</tspan></text>
+    <polyline points="1473,600 1473,617 1384,617 1384,651 1394,651" stroke="#597187" stroke-dasharray="3 3" fill="none"/>
+    <path d="M1404 632 h-10 v45 h10" stroke="#597187" fill="none" stroke-width="1.3"/>
+    <text x="1407" y="648" font-size="14.5" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="1407" dy="0">После покупки абонемент</tspan><tspan x="1407" dy="17">остаётся действующим.</tspan></text>
+    <polyline points="41,721 77,721" fill="none" stroke="#315373" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="88" y="726" font-size="14.5" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="88" dy="0">Поток управления</tspan></text>
+    <polyline points="255,721 291,721" fill="none" stroke="#52677b" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5" marker-start="url(#origin)" marker-end="url(#message)"/>
+    <text x="302" y="726" font-size="14.5" fill="#486076" font-weight="400" text-anchor="start" ><tspan x="302" dy="0">Сообщение клиенту или от клиента</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1004" viewBox="0 0 1280 1004" role="img" aria-labelledby="title desc">
+<title id="title">ERD информационной системы фитнес-клуба</title>
+<desc id="desc">Восемь сущностей с атрибутами, ключами и кратностями связей.</desc>
+<style>
+.title { font: bold 28px Arial, sans-serif; fill: #203554; }
+.heading { font: bold 19px Arial, sans-serif; fill: #203554; }
+.key { font: bold 12px Arial, sans-serif; fill: #245999; }
+.attribute { font: 13px Menlo, Consolas, monospace; fill: #253654; }
+.description { font: 14px Arial, sans-serif; fill: #304259; }
+.cardinality { font: bold 15px Arial, sans-serif; fill: #304259; paint-order: stroke; stroke: #fff; stroke-width: 5px; stroke-linejoin: round; }
+.legend { font: 14px Arial, sans-serif; fill: #304259; }
+</style>
+<rect width="1280" height="1004" fill="#fff"/>
+<text x="55" y="49" class="title">ERD информационной системы фитнес-клуба</text>
+<polyline points="367,142 635,142 635,320" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="382" y="133" class="cardinality" text-anchor="middle">1</text>
+<text x="659" y="306" class="cardinality" text-anchor="middle">0..*</text>
+<polyline points="207,231 207,320" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="221" y="245" class="cardinality" text-anchor="middle">1</text>
+<text x="233" y="308" class="cardinality" text-anchor="middle">0..*</text>
+<polyline points="207,569 207,697" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="221" y="590" class="cardinality" text-anchor="middle">1</text>
+<text x="231" y="683" class="cardinality" text-anchor="middle">0..*</text>
+<polyline points="367,435 470,435" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="382" y="426" class="cardinality" text-anchor="middle">1</text>
+<text x="446" y="426" class="cardinality" text-anchor="middle">0..*</text>
+<polyline points="810,435 912,435" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="832" y="426" class="cardinality" text-anchor="middle">0..*</text>
+<text x="899" y="426" class="cardinality" text-anchor="middle">1</text>
+<polyline points="634,519 634,697" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="649" y="544" class="cardinality" text-anchor="middle">1</text>
+<text x="660" y="683" class="cardinality" text-anchor="middle">0..1</text>
+<polyline points="1064,181 1064,320" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="1079" y="199" class="cardinality" text-anchor="middle">1</text>
+<text x="1090" y="308" class="cardinality" text-anchor="middle">0..*</text>
+<polyline points="1064,544 1064,697" fill="none" stroke="#637b98" stroke-width="2" stroke-linejoin="round"/>
+<text x="1090" y="565" class="cardinality" text-anchor="middle">0..*</text>
+<text x="1079" y="684" class="cardinality" text-anchor="middle">1</text>
+<rect x="55" y="82" width="312" height="149" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M63,83 H359 Q366,83 366,90 V121 H56 V90 Q56,83 63,83" fill="#e4effc"/>
+<text x="69" y="108" class="heading" text-anchor="start">Клиент</text>
+<text x="68" y="143" class="key" text-anchor="start">PK</text>
+<text x="123" y="143" class="attribute" text-anchor="start">client_id</text>
+<text x="239" y="143" class="description" text-anchor="start">идентификатор</text>
+<text x="123" y="168" class="attribute" text-anchor="start">full_name</text>
+<text x="239" y="168" class="description" text-anchor="start">ФИО</text>
+<text x="123" y="193" class="attribute" text-anchor="start">phone</text>
+<text x="239" y="193" class="description" text-anchor="start">телефон</text>
+<text x="123" y="218" class="attribute" text-anchor="start">email</text>
+<text x="239" y="218" class="description" text-anchor="start">почта</text>
+<rect x="55" y="320" width="312" height="249" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M63,321 H359 Q366,321 366,328 V359 H56 V328 Q56,321 63,321" fill="#e4effc"/>
+<text x="69" y="346" class="heading" text-anchor="start">Абонемент</text>
+<text x="68" y="381" class="key" text-anchor="start">PK</text>
+<text x="123" y="381" class="attribute" text-anchor="start">membership_id</text>
+<text x="239" y="381" class="description" text-anchor="start">идентификатор</text>
+<text x="68" y="406" class="key" text-anchor="start">FK</text>
+<text x="123" y="406" class="attribute" text-anchor="start">client_id</text>
+<text x="239" y="406" class="description" text-anchor="start">клиент</text>
+<text x="123" y="431" class="attribute" text-anchor="start">valid_from</text>
+<text x="239" y="431" class="description" text-anchor="start">начало действия</text>
+<text x="123" y="456" class="attribute" text-anchor="start">valid_to</text>
+<text x="239" y="456" class="description" text-anchor="start">окончание действия</text>
+<text x="123" y="481" class="attribute" text-anchor="start">visits_left</text>
+<text x="239" y="481" class="description" text-anchor="start">остаток посещений</text>
+<text x="123" y="506" class="attribute" text-anchor="start">status</text>
+<text x="239" y="506" class="description" text-anchor="start">статус</text>
+<text x="123" y="531" class="attribute" text-anchor="start">freeze_from</text>
+<text x="239" y="531" class="description" text-anchor="start">начало заморозки</text>
+<text x="123" y="556" class="attribute" text-anchor="start">freeze_to</text>
+<text x="239" y="556" class="description" text-anchor="start">окончание заморозки</text>
+<rect x="55" y="697" width="312" height="224" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M63,698 H359 Q366,698 366,705 V736 H56 V705 Q56,698 63,698" fill="#e4effc"/>
+<text x="69" y="723" class="heading" text-anchor="start">Платёж</text>
+<text x="68" y="758" class="key" text-anchor="start">PK</text>
+<text x="123" y="758" class="attribute" text-anchor="start">payment_id</text>
+<text x="239" y="758" class="description" text-anchor="start">идентификатор</text>
+<text x="68" y="783" class="key" text-anchor="start">FK</text>
+<text x="123" y="783" class="attribute" text-anchor="start">membership_id</text>
+<text x="239" y="783" class="description" text-anchor="start">абонемент</text>
+<text x="68" y="808" class="key" text-anchor="start">UQ</text>
+<text x="123" y="808" class="attribute" text-anchor="start">provider_ref</text>
+<text x="239" y="808" class="description" text-anchor="start">операция у провайдера</text>
+<text x="123" y="833" class="attribute" text-anchor="start">amount</text>
+<text x="239" y="833" class="description" text-anchor="start">сумма</text>
+<text x="123" y="858" class="attribute" text-anchor="start">operation_type</text>
+<text x="239" y="858" class="description" text-anchor="start">тип операции</text>
+<text x="123" y="883" class="attribute" text-anchor="start">status</text>
+<text x="239" y="883" class="description" text-anchor="start">статус</text>
+<text x="123" y="908" class="attribute" text-anchor="start">created_at</text>
+<text x="239" y="908" class="description" text-anchor="start">время создания</text>
+<rect x="470" y="320" width="340" height="199" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M478,321 H802 Q809,321 809,328 V359 H471 V328 Q471,321 478,321" fill="#e4effc"/>
+<text x="484" y="346" class="heading" text-anchor="start">Запись</text>
+<text x="483" y="381" class="key" text-anchor="start">PK</text>
+<text x="538" y="381" class="attribute" text-anchor="start">booking_id</text>
+<text x="654" y="381" class="description" text-anchor="start">идентификатор</text>
+<text x="483" y="406" class="key" text-anchor="start">FK</text>
+<text x="538" y="406" class="attribute" text-anchor="start">client_id</text>
+<text x="654" y="406" class="description" text-anchor="start">клиент</text>
+<text x="483" y="431" class="key" text-anchor="start">FK</text>
+<text x="538" y="431" class="attribute" text-anchor="start">session_id</text>
+<text x="654" y="431" class="description" text-anchor="start">занятие</text>
+<text x="483" y="456" class="key" text-anchor="start">FK</text>
+<text x="538" y="456" class="attribute" text-anchor="start">membership_id</text>
+<text x="654" y="456" class="description" text-anchor="start">абонемент</text>
+<text x="538" y="481" class="attribute" text-anchor="start">status</text>
+<text x="654" y="481" class="description" text-anchor="start">статус</text>
+<text x="483" y="506" class="key" text-anchor="start">UQ</text>
+<text x="538" y="506" class="attribute" text-anchor="start">(client_id, session_id)</text>
+<rect x="470" y="697" width="340" height="149" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M478,698 H802 Q809,698 809,705 V736 H471 V705 Q471,698 478,698" fill="#e4effc"/>
+<text x="484" y="723" class="heading" text-anchor="start">Посещение</text>
+<text x="483" y="758" class="key" text-anchor="start">PK</text>
+<text x="538" y="758" class="attribute" text-anchor="start">visit_id</text>
+<text x="654" y="758" class="description" text-anchor="start">идентификатор</text>
+<text x="483" y="783" class="key" text-anchor="start">FK · UQ</text>
+<text x="538" y="783" class="attribute" text-anchor="start">booking_id</text>
+<text x="654" y="783" class="description" text-anchor="start">запись</text>
+<text x="538" y="808" class="attribute" text-anchor="start">outcome</text>
+<text x="654" y="808" class="description" text-anchor="start">визит / неявка</text>
+<text x="538" y="833" class="attribute" text-anchor="start">recorded_at</text>
+<text x="654" y="833" class="description" text-anchor="start">время учёта</text>
+<rect x="912" y="320" width="310" height="224" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M920,321 H1214 Q1221,321 1221,328 V359 H913 V328 Q913,321 920,321" fill="#e4effc"/>
+<text x="926" y="346" class="heading" text-anchor="start">Занятие</text>
+<text x="925" y="381" class="key" text-anchor="start">PK</text>
+<text x="980" y="381" class="attribute" text-anchor="start">session_id</text>
+<text x="1096" y="381" class="description" text-anchor="start">идентификатор</text>
+<text x="925" y="406" class="key" text-anchor="start">FK</text>
+<text x="980" y="406" class="attribute" text-anchor="start">trainer_id</text>
+<text x="1096" y="406" class="description" text-anchor="start">тренер</text>
+<text x="925" y="431" class="key" text-anchor="start">FK</text>
+<text x="980" y="431" class="attribute" text-anchor="start">room_id</text>
+<text x="1096" y="431" class="description" text-anchor="start">зал</text>
+<text x="980" y="456" class="attribute" text-anchor="start">name</text>
+<text x="1096" y="456" class="description" text-anchor="start">название</text>
+<text x="980" y="481" class="attribute" text-anchor="start">starts_at</text>
+<text x="1096" y="481" class="description" text-anchor="start">начало</text>
+<text x="980" y="506" class="attribute" text-anchor="start">ends_at</text>
+<text x="1096" y="506" class="description" text-anchor="start">окончание</text>
+<text x="980" y="531" class="attribute" text-anchor="start">seat_limit</text>
+<text x="1096" y="531" class="description" text-anchor="start">лимит мест</text>
+<rect x="912" y="82" width="310" height="99" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M920,83 H1214 Q1221,83 1221,90 V121 H913 V90 Q913,83 920,83" fill="#e4effc"/>
+<text x="926" y="108" class="heading" text-anchor="start">Тренер</text>
+<text x="925" y="143" class="key" text-anchor="start">PK</text>
+<text x="980" y="143" class="attribute" text-anchor="start">trainer_id</text>
+<text x="1096" y="143" class="description" text-anchor="start">идентификатор</text>
+<text x="980" y="168" class="attribute" text-anchor="start">full_name</text>
+<text x="1096" y="168" class="description" text-anchor="start">ФИО</text>
+<rect x="912" y="697" width="310" height="124" rx="8" fill="#fff" stroke="#9aaec5" stroke-width="1.5"/>
+<path d="M920,698 H1214 Q1221,698 1221,705 V736 H913 V705 Q913,698 920,698" fill="#e4effc"/>
+<text x="926" y="723" class="heading" text-anchor="start">Зал</text>
+<text x="925" y="758" class="key" text-anchor="start">PK</text>
+<text x="980" y="758" class="attribute" text-anchor="start">room_id</text>
+<text x="1096" y="758" class="description" text-anchor="start">идентификатор</text>
+<text x="980" y="783" class="attribute" text-anchor="start">name</text>
+<text x="1096" y="783" class="description" text-anchor="start">название</text>
+<text x="980" y="808" class="attribute" text-anchor="start">capacity</text>
+<text x="1096" y="808" class="description" text-anchor="start">вместимость</text>
+<text x="470" y="941" class="legend" text-anchor="start">PK — первичный ключ · FK — внешний ключ · UQ — уникальное значение</text>
+<text x="470" y="965" class="legend" text-anchor="start">1 — ровно один · 0..1 — ноль или один · 0..* — ноль или несколько</text>
+</svg>
